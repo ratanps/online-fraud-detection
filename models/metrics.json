@@ -1,0 +1,138 @@
+{
+  "best_model": "LogisticRegression",
+  "model_path": "C:\\Users\\ratan\\Downloads\\DS-Capstone-project-online-fraud-detection\\models\\fraud_model.joblib",
+  "all_models": [
+    {
+      "model": "LogisticRegression",
+      "roc_auc": 0.7093846653208778,
+      "f1": 0.2895989123045547,
+      "precision": 0.19469835466179158,
+      "recall": 0.5649867374005305,
+      "confusion_matrix": [
+        [
+          9968,
+          3524
+        ],
+        [
+          656,
+          852
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9382530120481928,
+          "recall": 0.7388081826267417,
+          "f1-score": 0.8266710897329573,
+          "support": 13492.0
+        },
+        "1": {
+          "precision": 0.19469835466179158,
+          "recall": 0.5649867374005305,
+          "f1-score": 0.2895989123045547,
+          "support": 1508.0
+        },
+        "accuracy": 0.7213333333333334,
+        "macro avg": {
+          "precision": 0.5664756833549922,
+          "recall": 0.6518974600136361,
+          "f1-score": 0.558135001018756,
+          "support": 15000.0
+        },
+        "weighted avg": {
+          "precision": 0.8635009838256132,
+          "recall": 0.7213333333333334,
+          "f1-score": 0.7726774334954886,
+          "support": 15000.0
+        }
+      }
+    },
+    {
+      "model": "RandomForest",
+      "roc_auc": 0.6731758126045418,
+      "f1": 0.0013236267372600927,
+      "precision": 0.3333333333333333,
+      "recall": 0.000663129973474801,
+      "confusion_matrix": [
+        [
+          13490,
+          2
+        ],
+        [
+          1507,
+          1
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8995132359805295,
+          "recall": 0.9998517640083012,
+          "f1-score": 0.9470321878619818,
+          "support": 13492.0
+        },
+        "1": {
+          "precision": 0.3333333333333333,
+          "recall": 0.000663129973474801,
+          "f1-score": 0.0013236267372600927,
+          "support": 1508.0
+        },
+        "accuracy": 0.8994,
+        "macro avg": {
+          "precision": 0.6164232846569314,
+          "recall": 0.500257446990888,
+          "f1-score": 0.47417790729962095,
+          "support": 15000.0
+        },
+        "weighted avg": {
+          "precision": 0.8425932831010646,
+          "recall": 0.8994,
+          "f1-score": 0.8519569538502432,
+          "support": 15000.0
+        }
+      }
+    },
+    {
+      "model": "XGBoost",
+      "roc_auc": 0.6740953574217475,
+      "f1": 0.26878264363198073,
+      "precision": 0.19279538904899135,
+      "recall": 0.4436339522546419,
+      "confusion_matrix": [
+        [
+          10691,
+          2801
+        ],
+        [
+          839,
+          669
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9272333044232437,
+          "recall": 0.7923954936258524,
+          "f1-score": 0.854528015346495,
+          "support": 13492.0
+        },
+        "1": {
+          "precision": 0.19279538904899135,
+          "recall": 0.4436339522546419,
+          "f1-score": 0.26878264363198073,
+          "support": 1508.0
+        },
+        "accuracy": 0.7573333333333333,
+        "macro avg": {
+          "precision": 0.5600143467361175,
+          "recall": 0.6180147229402472,
+          "f1-score": 0.5616553294892379,
+          "support": 15000.0
+        },
+        "weighted avg": {
+          "precision": 0.8533978126642856,
+          "recall": 0.7573333333333333,
+          "f1-score": 0.7956410806434625,
+          "support": 15000.0
+        }
+      }
+    }
+  ]
+}
